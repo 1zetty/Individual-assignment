@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+  .button {
+  background-color: #008CBA; /* Blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #008CBA;} /* Blue */ 
+.button4 {background-color: #008CBA;} /* Blue */ 
+.button5 {background-color: #008CBA;} /* Blue */
+
+h1 {
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  border-style: groove;
+}
+
+body {
+
+  background-image: url("images/bg2.jpg");
+ 
+  ;
+}
+
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+  <!--target attributes; _blank,_self,_parent,top-->
+
+<a href="file:///Users/wannurezzati/Downloads/zetty311assignment/individual-assignment/index.html"><button class="button">Home</button>
+<a href="file:///Users/wannurezzati/Downloads/zetty311assignment/individual-assignment/bio.html"><button class="button button2">My Biodata</button>
+<a href="file:///Users/wannurezzati/Downloads/zetty311assignment/individual-assignment/imagegallery.html"><button class="button button3">Image gallery</button>
+<a href="file:///Users/wannurezzati/Downloads/zetty311assignment/individual-assignment/experience.html"><button class="button button4">Experience</button>
+<a href="file:///Users/wannurezzati/Downloads/zetty311assignment/individual-assignment/family.html"><button class="button button5">Family</button>
+<a href="file:///Users/wannurezzati/Downloads/zetty311assignment/individual-assignment/education.html"><button class="button button6">Education</button>  
+
+<h1>My image gallery</h1>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/laini.jpg">
+      <img src="images/laini.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">My best buddy ever !</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/syahirah.jpg">
+      <img src="images/syahirah.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/roomate.jpg">
+      <img src="images/roomate.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div> 
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/lib.jpg">
+      <img src="images/lib.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/laini2.jpg">
+      <img src="images/laini2.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/syahirah2.jpg">
+      <img src="images/syahirah2.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+  <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+</div>
+
+</body>
+</html>
+

@@ -3,7 +3,7 @@
 <head>
 <style>
 
-	.button {
+  .button {
   background-color: #008CBA; /* Blue */
   border: none;
   color: white;
@@ -21,6 +21,8 @@
 .button4 {background-color: #008CBA;} /* Blue */ 
 .button5 {background-color: #008CBA;} /* Blue */
 
+
+
 body {
 
   background-image: url("images/bg2.jpg");
@@ -36,14 +38,52 @@ h1 {
 }
 
 p {
-  font-family: verdana;
-  font-size: 25px;
-  background-color: lightblue;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  
 }
 
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+  .button {
+  background-color: #008CBA; /* Blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
 </style>
 </head>
 <body>
@@ -57,36 +97,41 @@ p {
 <a href="file:///Users/wannurezzati/Downloads/zetty311assignment/individual-assignment/experience.html"><button class="button button4">Experience</button>
 <a href="file:///Users/wannurezzati/Downloads/zetty311assignment/individual-assignment/family.html"><button class="button button5">Family</button>
 <a href="file:///Users/wannurezzati/Downloads/zetty311assignment/individual-assignment/education.html"><button class="button button6">Education</button>  
+ 
 
 
-<h1>My biodata</h1>
+ <h1>My family</h1>
 
-<p> About me</p>
+<p><div class="gallery">
+  <a target="_blank" href="images/arman.jpg">
+    <img src="images/arman.jpg" alt="Cinque Terre" width="600" height="300">
+  </a>
+  <div class="desc">Arman new haircut</div>
+</div></p>
 
+<div class="gallery">
+  <a target="_blank" href="images/fam.jpg">
+    <img src="images/fam.jpg" alt="Forest" width="600" height="300">
+  </a>
+  <div class="desc">Eid Mubarak Celebration</div>
+</div>
 
-<p> <li> Wan Nur E'zzati Binti Wan Redza Izuddin</li> </p>
-<p> <li> January 24th 1999</li></p>
-<p> <li> Malay</li></p>
-<p> <li> Single</li></p> 
-<p> <li> 1zetty24@gmail.com</li></p>
-<p> <li> Chocolate lover</li></p>
-<p> <li> Afraid of insect</li></p>
+<div class="gallery">
+  <a target="_blank" href="images/fam2.jpg">
+    <img src="images/fam2.jpg" alt="Northern Lights" width="600" height="300">
+  </a>
+  <div class="desc">Family trip to Hatyai</div>
+</div>
 
-
-
-
-<p> Primary school
-<li> Sk Bandar Sg. Buaya, 48010, Rawang, Selangor</li>
-<li> Sk Pasir Puteh (Perempuan), 16800 Pasir Puteh, Kelantan</li></p>
-
-<p> Secondary school
-<li> SMK kamil, 16800 Pasir puteh, Kelantan </li>
-<li> SMK Panji, 16100 Kota Bharu, Kelantan</li> </p>
-
-
-
+<div class="gallery">
+  <a target="_blank" href="images/arman2.jpg">
+    <img src="images/arman2.jpg" alt="Mountains" width="600" height="300">
+  </a>
+  <div class="desc">My youngest brother</div>
+</div>
 
 
 
 </body>
 </html>
+
